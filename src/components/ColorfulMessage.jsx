@@ -3,7 +3,7 @@ import React from "react";
 const ColorfulMessage = (props) => {
   const { color, children } = props;
   const contentStyle = {
-    color: props.color,
+    color,
     fontSize: "18px",
   };
 
